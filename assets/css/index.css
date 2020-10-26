@@ -1,0 +1,98 @@
+
+/* separate contactInfo and name on its own row */
+@media only screen and (max-width: 720px) {
+  #contactInfo { flex-basis: 100%;}
+  #name { flex-basis: 100%; }
+}
+
+/* set font family */
+p, h1, h2, h3, h4, span, li, i , a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* set flex box */
+#container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  min-width: 70%;
+  max-width: 70%;
+}
+
+.experiencePositionHeading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+.experiencePositionHeading h4 {
+  font-weight: bold;
+}
+
+.experienceDate {
+  margin-top: 20px;
+}
+
+.experienceCompany {
+  margin-top: -15px;
+}
+
+.developmentStack {
+  flex-wrap: wrap;
+}
+
+.projects {
+  margin-top: 0;
+}
+
+.icons {
+  border-radius: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.profileHeading {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 25px;
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  background-color: #194666;
+}
+
+#menu ul li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
